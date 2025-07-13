@@ -1,22 +1,23 @@
-# MCP TypeScript Server
+# MCP Server
 
-本项目为基于 TypeScript 的 Model Context Protocol (MCP) 服务端，集成 Playwright。
+This repo records MCPs I have used and I will comment on these MCPs.
 
-## 快速开始
+## Quick Start
 
-1. 安装依赖：
+1. Install dependencies
    ```bash
    npm install
    ```
-2. 构建项目：
+2. Build the project
    ```bash
    npm run build
    ```
-3. 启动 MCP 服务：
+3. Start the MCP server
    ```bash
    node build/index.js
    ```
 
-## 参考文档
-- MCP 官方文档：https://modelcontextprotocol.io/quickstart/server
-- Playwright：https://playwright.dev/
+### Comments on MCPs
+1. playwright-mcp-server
+   
+2. sequential thinking

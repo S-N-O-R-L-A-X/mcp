@@ -1,9 +1,16 @@
 {
-  "servers": {
-    "playwright-mcp-server": {
-      "type": "stdio",
-      "command": "node",
-      "args": ["${workspaceFolder}/build/index.js"]
-    }
-  }
+	"servers": {
+		"playwright-mcp-server": {
+			"type": "stdio",
+			"command": "node",
+			"args": [ "${workspaceFolder}/build/index.js" ]
+		},
+		"sequential-thinking": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-sequential-thinking"
+			]
+		}
+	}
 }
