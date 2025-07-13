@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "playwright-mcp-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/build/index.js"]
+    }
+  }
+}
